@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_title"
+        android:visibility="gone"
+        android:text="CodeCric"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:src="@drawable/criczone"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <TextView
+        android:id="@+id/textView_subtitle"
+        android:text="T20 Mens World Cup"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_match_fixture"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

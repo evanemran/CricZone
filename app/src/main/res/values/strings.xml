@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CricZone</string>
+    <string name="x_rapidapi_host">cricket-live-data.p.rapidapi.com</string>
+    <string name="x_rapidapi_key">0a0fa7b4afmsh335bf95a878bdb8p139d89jsndf1201d38ee5</string>
+</resources>
